@@ -27,12 +27,18 @@ Inside this portfolio, I showcase my flagship demo: **Lumina Store**.
 
 ---
 
-## 🖥️ My Development Workflow
-This is how I bring luxury stores to life:
-```bash
-abdullah --build-store --brand Lumina
-shopify-sync --fetch-data --secure
-Performance: 100/100 | Status: Luxury Optimized
-seo-audit --optimize --rank-top-1
-deploy --to-vercel --live
-Store successfully launched.
+🚀 Services I Offer | الخدمات التي أقدمها
+Headless Shopify Development: Moving away from slow themes to ultra-fast React-based stores.
+
+Custom UI/UX Design: Crafting unique, premium identities for brands.
+
+Performance Optimization: Achieving 90+ scores on Google PageSpeed.
+
+API Integration: Connecting Shopify with any third-party service securely.
+
+📬 Contact Me | تواصل معي
+I am currently open for new premium projects and collaborations.
+
+Email: dev.abdullah.bamzahem@gmail.com
+
+WhatsApp: Start a Conversation - LinkedIn: Abdullah Bamzahem
