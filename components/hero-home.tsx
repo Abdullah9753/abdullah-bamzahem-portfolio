@@ -40,7 +40,7 @@ export default function HeroHome() {
                 data-aos-delay={300}
               >
 
-                Headless Shopify و Next.js
+                Next.js | Headless Shopify
               </p>
               <div className="relative">
                 <div
@@ -84,7 +84,7 @@ export default function HeroHome() {
               </div>
               <div className="font-mono text-gray-600 [&_span]:opacity-0">
                 <span className="animate-[code-1_10s_infinite] text-gray-600">
-                  abdullah --build-store --brand Lumina
+                  BAMZAHEM Digital --build-store --brand Lumina
                 </span>{" "}
                 <span className="animate-[code-2_10s_infinite]">
                   shopify-sync --fetch-data --secure

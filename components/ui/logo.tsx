@@ -5,7 +5,7 @@ export default function Logo() {
   return (
     <Link href="/" className="inline-flex" aria-label="Cruip">
       <Image
-        src="/images/logo_2.png"
+        src="/images/logo-05.png"
         alt="Logo"
         width={64}
         height={64}
