@@ -23,7 +23,7 @@ export default function LargeTestimonial() {
             <div className="pt-4">
               <a
                 className="btn bg-luxury-gold text-night-blue hover:bg-gold-600 shadow-lg"
-                href="https://commerce-eight-ebon-12.vercel.app/"
+                href="https://lumina-demo-commerce.vercel.app/"
                 target="_blank"
               >
                 شاهد النموذج الحي (Lumina Store)

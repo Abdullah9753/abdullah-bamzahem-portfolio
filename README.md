@@ -23,7 +23,7 @@ This portfolio is built using the same high-performance tech stack I use for my 
 Inside this portfolio, I showcase my flagship demo: **Lumina Store**.
 - **What is it?** A high-end Headless Shopify store.
 - **Why it matters:** It proves that a store can be both incredibly fast (Score 100) and visually stunning.
-- **Live Demo:** [Check it out here](https://commerce-eight-ebon-12.vercel.app/)
+- **Live Demo:** [Check it out here](https://lumina-demo-commerce.vercel.app/)
 
 ---
 
