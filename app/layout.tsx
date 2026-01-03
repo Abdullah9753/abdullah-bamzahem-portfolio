@@ -39,6 +39,11 @@ const playfair = localFont({
 export const metadata = {
   title: "Lumina Digital",
   description: "Ultra-fast Headless Shopify Stores",
+  icons: {
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({
