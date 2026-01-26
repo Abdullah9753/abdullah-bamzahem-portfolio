@@ -1,8 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import PageIllustration from "@/components/page-illustration";
-
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function HeroHome() {
+  const { dictionary } = useTranslation();
+
   return (
     <section className="relative">
       <PageIllustration />
@@ -22,8 +26,8 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              نحن نبني أسرع المتاجر <br className="max-lg:hidden" />
-              الإلكترونية في العالم
+              {dictionary.hero.title} <br className="max-lg:hidden" />
+              {dictionary.hero.titleLine2}
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -31,15 +35,13 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                تحويل تجربتك التجارية إلى تحفة فنية رقمية باستخدام تقنيات
-
+                {dictionary.hero.description}
               </p>
               <p
                 className="mb-8 text-lg text-muted-gold"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-
                 Next.js | Headless Shopify
               </p>
               <div className="relative">
@@ -53,18 +55,12 @@ export default function HeroHome() {
                     href="#0"
                   >
                     <span className="relative inline-flex items-center">
-                      ابدأ مشروعك الآن{" "}
-                      <span className="ml-1 tracking-normal text-gold-300 transition-transform group-hover:translate-x-0.5">
+                      {dictionary.hero.cta}{" "}
+                      <span className="ms-1 tracking-normal text-gold-300 transition-transform group-hover:translate-x-0.5 rtl:group-hover:-translate-x-0.5">
                         -&gt;
                       </span>
                     </span>
                   </a>
-                  {/* <a
-                    className="btn w-full bg-transparent border border-luxury-gold/30 text-luxury-gold shadow-sm hover:bg-luxury-gold/10 sm:ml-4 sm:w-auto"
-                    href="#0"
-                  >
-                    Learn More
-                  </a> */}
                 </div>
               </div>
             </div>
@@ -84,7 +80,7 @@ export default function HeroHome() {
               </div>
               <div className="font-mono text-gray-600 [&_span]:opacity-0">
                 <span className="animate-[code-1_10s_infinite] text-gray-600">
-                  BAMZAHEM Digital --build-store --brand Lumina
+                  BAMZAHEM Digital --build-store --brand ZAHRA
                 </span>{" "}
                 <span className="animate-[code-2_10s_infinite]">
                   shopify-sync --fetch-data --secure

@@ -1,7 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import Stripes from "@/public/images/stripes-dark.svg";
+import { useTranslation } from "@/lib/useTranslation";
 
 export default function Cta() {
+  const { dictionary } = useTranslation();
+
   return (
     <section>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -31,7 +36,7 @@ export default function Cta() {
           </div>
           <div className="px-4 py-12 md:px-12 md:py-20">
             <h2 className="mb-6 text-3xl font-bold font-serif text-luxury-gold md:mb-12 md:text-4xl">
-              ابدأ في بناء تحفتك الرقمية القادمة
+              {dictionary.cta.title}
             </h2>
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <a
@@ -39,8 +44,8 @@ export default function Cta() {
                 href="https://wa.me/YOUR_NUMBER"
               >
                 <span className="relative inline-flex items-center">
-                  ابدأ مشروعك الآن{" "}
-                  <span className="ml-1 tracking-normal text-gold-300 transition-transform group-hover:translate-x-0.5">
+                  {dictionary.cta.button}{" "}
+                  <span className="ms-1 tracking-normal text-gold-300 transition-transform group-hover:translate-x-0.5 rtl:group-hover:-translate-x-0.5">
                     -&gt;
                   </span>
                 </span>

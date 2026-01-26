@@ -37,7 +37,7 @@ const playfair = localFont({
 });
 
 export const metadata = {
-  title: "Lumina Digital",
+  title: "Z A H R A",
   description: "Ultra-fast Headless Shopify Stores",
   icons: {
     icon: "/images/logo.png",
@@ -52,7 +52,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ar" dir="rtl" className="scroll-smooth">
+    <html lang="en" dir="ltr" className="scroll-smooth">
       <body
         className={`${inter.variable} ${playfair.variable} bg-night-blue font-inter tracking-tight text-luxury-gold antialiased`}
       >
