@@ -1,4 +1,55 @@
-export const en = {
+// Dictionary type interface for translations
+export interface Dictionary {
+    header: {
+        cta: string;
+    };
+    hero: {
+        title: string;
+        titleLine2: string;
+        description: string;
+        cta: string;
+    };
+    features: {
+        title: string;
+        speed: {
+            title: string;
+            description: string;
+        };
+        seo: {
+            title: string;
+            description: string;
+        };
+        security: {
+            title: string;
+            description: string;
+        };
+    };
+    cta: {
+        title: string;
+        button: string;
+    };
+    testimonial: {
+        description: string;
+        storeName: string;
+        descriptionLine2: string;
+        button: string;
+    };
+    footer: {
+        services: string;
+        showroom: string;
+        contact: string;
+        social: string;
+        headlessShopify: string;
+        speedOptimization: string;
+        customUiUx: string;
+        zahraDemo: string;
+        pricingPlans: string;
+        whatsapp: string;
+        emailMe: string;
+    };
+}
+
+export const en: Dictionary = {
     // Header
     header: {
         cta: "Start Your Project Now",
@@ -57,6 +108,4 @@ export const en = {
         whatsapp: "WhatsApp",
         emailMe: "Email Me",
     },
-} as const;
-
-export type Dictionary = typeof en;
+};
