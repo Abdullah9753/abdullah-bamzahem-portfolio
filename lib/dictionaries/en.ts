@@ -44,8 +44,7 @@ export interface Dictionary {
         customUiUx: string;
         zahraDemo: string;
         pricingPlans: string;
-        whatsapp: string;
-        emailMe: string;
+        email: string;
     };
 }
 
@@ -105,7 +104,6 @@ export const en: Dictionary = {
         customUiUx: "Custom UI/UX",
         zahraDemo: "Z A H R A Store (Demo)",
         pricingPlans: "Pricing Plans",
-        whatsapp: "WhatsApp",
-        emailMe: "Email Me",
+        email: "Email Me",
     },
 };

@@ -77,13 +77,8 @@ export default function Footer({ border = false }: { border?: boolean }) {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link className="text-muted-gold transition hover:text-white" href="https://wa.me/9665XXXXXXXX">
-                  {dictionary.footer.whatsapp}
-                </Link>
-              </li>
-              <li>
-                <Link className="text-muted-gold transition hover:text-white" href="mailto:dev.abdullah.bamzahem@gmail.com">
-                  {dictionary.footer.emailMe}
+                <Link className="text-muted-gold transition hover:text-white" href="mailto:dev.abdullah.bamzahem@gmail.com?subject=New%20Headless%20Project%20Inquiry&body=Hi%20Abdullah%2C%20I%20saw%20your%20Zahra%20Store%20case%20study...">
+                  {dictionary.footer.email}
                 </Link>
               </li>
             </ul>

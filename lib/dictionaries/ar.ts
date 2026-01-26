@@ -56,7 +56,6 @@ export const ar: Dictionary = {
         customUiUx: "تصميم UI/UX مخصص",
         zahraDemo: "متجر Z A H R A (تجريبي)",
         pricingPlans: "خطط الأسعار",
-        whatsapp: "واتساب",
-        emailMe: "راسلني",
+        email: "راسلني",
     },
 };

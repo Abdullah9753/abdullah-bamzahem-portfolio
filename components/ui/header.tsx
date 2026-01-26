@@ -25,7 +25,7 @@ export default function Header() {
             <li className="h-4 w-px bg-luxury-gold/20" aria-hidden="true" />
             <li>
               <Link
-                href="https://wa.me/YOUR_NUMBER"
+                href="mailto:dev.abdullah.bamzahem@gmail.com?subject=New%20Headless%20Project%20Inquiry&body=Hi%20Abdullah%2C%20I%20saw%20your%20Zahra%20Store%20case%20study..."
                 className="btn-sm bg-luxury-gold text-night-blue shadow-sm hover:bg-gold-600"
               >
                 {dictionary.header.cta}

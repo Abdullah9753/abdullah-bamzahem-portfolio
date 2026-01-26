@@ -41,7 +41,7 @@ export default function Cta() {
             <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
               <a
                 className="btn group mb-4 w-full bg-linear-to-t from-luxury-gold to-gold-500 bg-[length:100%_100%] bg-[bottom] text-night-blue shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                href="https://wa.me/YOUR_NUMBER"
+                href="mailto:dev.abdullah.bamzahem@gmail.com?subject=New%20Headless%20Project%20Inquiry&body=Hi%20Abdullah%2C%20I%20saw%20your%20Zahra%20Store%20case%20study..."
               >
                 <span className="relative inline-flex items-center">
                   {dictionary.cta.button}{" "}
