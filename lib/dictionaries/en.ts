@@ -46,6 +46,27 @@ export interface Dictionary {
         pricingPlans: string;
         email: string;
     };
+    caseStudy: {
+        title: string;
+        headline: string;
+        challenge: {
+            title: string;
+            description: string;
+        };
+        solution: {
+            title: string;
+            ssrParams: string;
+            impact: string;
+            design: string;
+            performance: string;
+            smartSearch: string;
+        };
+        results: {
+            title: string;
+            sustainedPerf: string;
+            instantUx: string;
+        };
+    };
 }
 
 export const en: Dictionary = {
@@ -105,5 +126,28 @@ export const en: Dictionary = {
         zahraDemo: "Z A H R A Store (Demo)",
         pricingPlans: "Pricing Plans",
         email: "Email Me",
+    },
+
+    // Case Study Section
+    caseStudy: {
+        title: "💎 Case Study: Zahra Luxury Boutique",
+        headline: "Re-engineering the Luxury E-commerce Experience with 100/100 Performance.",
+        challenge: {
+            title: "1. The Challenge",
+            description: "Traditional RTL support methods (like relying on client-side JavaScript) often cause design 'flicker' and noticeable performance drops. The challenge was to deliver full RTL support without sacrificing a single millisecond of load speed.",
+        },
+        solution: {
+            title: "2. The Innovative Solutions",
+            ssrParams: "Strict RTL Support (Server-Side Injection): Instead of traditional hacks, we adopted strict Next.js Server-Side Rendering best practices. We inject page direction (dir='rtl') and content language directly from the server side.",
+            impact: "Technical Impact: This ensures the site appears in the correct direction from the very first moment of loading (Zero Layout Shift), maintaining interface stability and perfect CLS scores.",
+            design: "Bespoke Design: Building a unique UI with Next.js 15 to ensure a luxury experience that doesn't look like off-the-shelf templates.",
+            performance: "Super Performance & SEO: Achieving 100/100 score by embedding SEO optimizations into the core architecture to ensure top rankings.",
+            smartSearch: "Innovative smart search solutions.",
+        },
+        results: {
+            title: "3. The Results & Impact",
+            sustainedPerf: "Sustained 100/100 Performance: Maintaining full scores despite the complexity of linguistic solutions.",
+            instantUx: "Instant User Experience: Seamless browsing in Arabic without any visual or technical delays.",
+        },
     },
 };
